@@ -4,7 +4,7 @@ This is my solution to the Social links profile challenge on Frontend Mentor. Th
 
 🔗 Live Site
 
-    https://meowmeowrahul.github.io/Social_Card/
+    https://meowmeowrahul.github.io/Social_Links_Card/
 
 🛠️ Built With
 
