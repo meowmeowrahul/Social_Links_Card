@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'InterVar';
+  src: url('./fonts/Inter-Varfont.ttf') format('truetype');
+  font-weight: 100 900; /* Variable range */
+  font-style: normal;
+}
+@font-face {
+     font-family: 'InterVarBold';
+     src: url(./fonts/Inter-Bold.ttf);
+} 
+@theme{
+     --color-Green: hsl(75, 94%, 57%);
+     --color-Greylight: hsl(0,0%,20%);
+
+     --color-Greymedium: hsl(0,0%,12%);
+     --color-Greydark:hsl(0,0%,8%);
+     --font-Intervar: 'InterVar';
+     --font-InterVarBold: 'InterVarBold'; 
+     
+}
+
+@utility list {
+     display: flex;
+     min-width:var(--container-sm);
+     justify-content:center;
+     align-items: center;
+     color: white;
+     border-radius: var(--radius-xl);
+     font-family: 'InterVarBold';
+}
